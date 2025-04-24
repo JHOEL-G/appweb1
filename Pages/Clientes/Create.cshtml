@@ -2,3 +2,25 @@
 @model MyApp.Namespace.CreateModel
 @{
 }
+
+<div class="container">
+    <h1>
+        REGISTRO DE CLIENTES
+    </h1>
+    <hr>
+    <form action="" method="get">
+        <label asp-for="Clinete.Nombres">INGRESE NOMBRE</label>
+        
+        <input type="text" asp-for="Clinete.Nombres" class="from-control">
+
+        <label asp-for="Clinete.Apellidos">INGRESE APELLIDOS</label>
+
+        <input type="text" asp-for="Clinete.Apellidos" class="from-control">
+
+        <label asp-for="Clinete.Dni">INGRESE DNI</label>
+
+        <input type="text" asp-for="Clinete.Dni" class="from-control">
+
+        <button type="submit" class="btn btn-primary">GUARDAR</button>
+    </form>
+</div>

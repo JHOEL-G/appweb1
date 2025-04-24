@@ -9,6 +9,6 @@ namespace appweb1.Data
 
         public DbSet<Clinete> clientes {get; set;}
         public object Clinetes { get; set; }
-
+        
     }
 }
